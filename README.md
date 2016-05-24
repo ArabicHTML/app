@@ -1,6 +1,7 @@
 # Simple Dynamic single app 
 
-Simple dynamic single page app with angularjs , just add new file name to templates.json and than create it in views.
+Simple dynamic single page app with angularjs , you can new make single app and working with angularjs like this .. no worry about route 
+just add your file name to templates.json and than make this file in views /
 
 ##Step One npm install 
 
@@ -16,6 +17,8 @@ You want use more libray in app.js make your require and than
 ```javascript
 npm run watch 
 ```
+
+Have fun
 
 
 
