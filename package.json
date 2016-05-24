@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Simple dynamic single page app with angularjs",
+  "main": "app.js",
+  "scripts": {
+    "build": "browserify app.js -o js/bundle.js",
+    "watch": "watchify app.js -o js/bundle.js"
+  },
+  "author": "Amro Eldewiny",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-route": "^1.5.5",
+    "http-server": "^0.9.0"
+  }
+}

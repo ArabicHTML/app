@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>Dynamic single page app</title>
+	<base href="/">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="js/bundle.js"></script>
+</head>
+<body ng-controller="BodyController">
+	<div class="container">
+	<header class="main-header" ng-include="'views/layout/header.html'"></header>
+		<div id="views" ng-view></div>
+	<footer class="main-footer" ng-include="'views/layout/footer.html'"></footer>
+	</div>
+</body>
+</html>

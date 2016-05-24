@@ -1,0 +1,7 @@
+<nav class="navbar navbar-default">
+	<ul class="nav navbar-nav">
+		<li ng-class="pageClass('{{template.name}}')" ng-repeat="template in temp">
+			<a href="#/{{template.name}}">{{template.name}}</a>
+		</li>
+	</ul>
+</nav>
