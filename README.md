@@ -15,7 +15,7 @@ just add your file name to templates.json and than make this file in views /
 ```
 ### in views / your page name.html
 
-You want use more libray in app.js make your require and than 
+If you want use anthor libray...... in app.js make your require and than 
 ```javascript
 npm run watch 
 ```
