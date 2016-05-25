@@ -1,6 +1,6 @@
 # Simple Dynamic single app 
 
-![dynamic-angularjs-app](https://cloud.githubusercontent.com/assets/2475287/15539890/545ea176-2285-11e6-8b98-1258faf22865.jpg)
+![dynamic-angularjs-app-github](https://cloud.githubusercontent.com/assets/2475287/15540030/dd13b092-2285-11e6-9f39-87991c4fffe6.jpg)
 
 Simple dynamic single page app with angularjs , you can now make single app and working with angularjs like this .. no worry about routes 
 just add your file name to templates.json and than make this file in views /
